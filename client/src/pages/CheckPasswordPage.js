@@ -90,7 +90,7 @@ const CheckPasswordPage = () => {
               
 
           <div className='flex flex-col gap-1'>
-                <label htmlFor='password'>Password :</label>
+                <label htmlFor='password'>Password 🔒:</label>
                 <input
                   type='password'
                   id='password'
@@ -106,7 +106,7 @@ const CheckPasswordPage = () => {
               <button
                className='bg-primary text-lg  px-4 py-1 hover:bg-secondary rounded mt-2 font-bold text-white leading-relaxed tracking-wide'
               >
-                Login
+                Login ✔
               </button>
 
           </form>

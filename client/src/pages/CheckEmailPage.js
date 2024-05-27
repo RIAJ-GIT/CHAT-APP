@@ -58,13 +58,13 @@ const CheckEmailPage = () => {
                 />
             </div>
 
-          <h3>Welcome to Chat app!</h3>
+          <h3> Sign in 🔑🔐</h3>
 
           <form className='grid gap-4 mt-3' onSubmit={handleSubmit}>
               
 
               <div className='flex flex-col gap-1'>
-                <label htmlFor='email'>Email :</label>
+                <label htmlFor='email'>Email 📩:</label>
                 <input
                   type='email'
                   id='email'
@@ -80,12 +80,12 @@ const CheckEmailPage = () => {
               <button
                className='bg-primary text-lg  px-4 py-1 hover:bg-secondary rounded mt-2 font-bold text-white leading-relaxed tracking-wide'
               >
-                Let's Go
+                Let's Go 🔰
               </button>
 
           </form>
 
-          <p className='my-3 text-center'>New User ? <Link to={"/register"} className='hover:text-primary font-semibold'>Register</Link></p>
+          <p className='my-3 text-center'>New User ❓ <Link to={"/register"} className='hover:text-primary font-semibold'>Register</Link></p>
         </div>
     </div>
   )

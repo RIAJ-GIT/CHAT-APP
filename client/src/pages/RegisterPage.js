@@ -79,11 +79,11 @@ const RegisterPage = () => {
   return (
     <div className='mt-5'>
         <div className='bg-white w-full max-w-md  rounded overflow-hidden p-4 mx-auto'>
-          <h3>Welcome to Chat app!</h3>
+          <h3>Welcome to Chat app 🔰</h3>
 
           <form className='grid gap-4 mt-5' onSubmit={handleSubmit}>
               <div className='flex flex-col gap-1'>
-                <label htmlFor='name'>Name :</label>
+                <label htmlFor='name'>Name 🎭:</label>
                 <input
                   type='text'
                   id='name'
@@ -97,7 +97,7 @@ const RegisterPage = () => {
               </div>
 
               <div className='flex flex-col gap-1'>
-                <label htmlFor='email'>Email :</label>
+                <label htmlFor='email'>Email 📩:</label>
                 <input
                   type='email'
                   id='email'
@@ -111,7 +111,7 @@ const RegisterPage = () => {
               </div>
 
               <div className='flex flex-col gap-1'>
-                <label htmlFor='password'>Password :</label>
+                <label htmlFor='password'>Password 🔒:</label>
                 <input
                   type='password'
                   id='password'
@@ -125,7 +125,7 @@ const RegisterPage = () => {
               </div>
 
               <div className='flex flex-col gap-1'>
-                <label htmlFor='profile_pic'>Photo :
+                <label htmlFor='profile_pic'>Photo 👓:
 
                   <div className='h-14 bg-slate-200 flex justify-center items-center border rounded hover:border-primary cursor-pointer'>
                       <p className='text-sm max-w-[300px] text-ellipsis line-clamp-1'>
@@ -158,12 +158,12 @@ const RegisterPage = () => {
               <button
                className='bg-primary text-lg  px-4 py-1 hover:bg-secondary rounded mt-2 font-bold text-white leading-relaxed tracking-wide'
               >
-                Register
+                Register 🎊
               </button>
 
           </form>
 
-          <p className='my-3 text-center'>Already have account ? <Link to={"/email"} className='hover:text-primary font-semibold'>Login</Link></p>
+          <p className='my-3 text-center'>Already have account ❓ <Link to={"/email"} className='hover:text-primary font-semibold'>Login</Link></p>
         </div>
     </div>
   )
